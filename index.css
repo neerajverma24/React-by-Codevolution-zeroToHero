@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ /* way 1  for Navbar.js (this should not be comment ================================================= */
+.primary-nav{
+  background-color: aqua;
+  padding : 16px 32px;
+}
+
+nav a {
+  font-size: 22px;
+  margin-right: 50px;
+} 
+
+
+/*  way 2 for Navbar.js ===================
+nav a.active {
+  text-decoration: none;
+  font-weight: bold;
+} 
+*/
